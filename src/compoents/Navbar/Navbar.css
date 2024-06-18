@@ -1,0 +1,105 @@
+nav {
+  width: 100%;
+  height: 5vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid gray;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.center {
+  /* flex-basis: 40%; */
+  text-align: center;
+}
+
+.right {
+  /* flex-basis: 30%; */
+  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.right button {
+  /* background-color: #4CAF50; */
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background-color: rgb(52, 149, 214);
+}
+
+.left {
+  /* flex-basis: 30%; */
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+.ddbtn1 {
+  background-color: transparent;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.ddbtn1:hover {
+  background-color: rgb(52, 149, 214);
+}
+
+.dd1 {
+  position: absolute;
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dd1 li {
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+  list-style: none;
+}
+
+.dd1 li:last-child {
+  border-bottom: none;
+}
+.dd1 ul {
+  text-decoration: none;
+}
+
+.dd1 li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.dd1 li a:hover {
+  background-color: #cccccc;
+  text-decoration: none;
+}
+
+.dropdown1:hover .dd1 {
+  display: block;
+}
+
+.dropdown1:hover .ddbtn1 {
+  background-color: rgb(52, 149, 214);
+}

@@ -1,0 +1,32 @@
+.plugin {
+  width: 60%;
+  height: 100vh;
+  margin: 10% 20%;
+  line-height: 25px;
+}
+
+.plugin h2 {
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 70px;
+}
+
+.plugin h1 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.plugin button {
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgb(230, 220, 220);
+  color: black;
+  padding: 10px;
+}
+
+.plugin button:hover {
+  background-color: rgb(52, 149, 214);
+}

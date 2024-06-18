@@ -1,0 +1,47 @@
+h1,
+h3 {
+    font-weight: 100;
+    margin-left: 1%;
+  }
+  
+  form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: rgba(235, 229, 229, 0.76);
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgba(235, 229, 229, 0.76);
+  color: black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 80px;
+}
+h1,
